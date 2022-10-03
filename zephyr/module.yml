@@ -1,0 +1,7 @@
+name: rclc
+build:
+  cmake: zephyr
+  kconfig: zephyr/Kconfig
+  depends:
+    - rcutils
+    - rcl_interfaces
