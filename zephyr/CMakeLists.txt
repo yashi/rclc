@@ -18,7 +18,7 @@ zephyr_library_sources(
   ${ZEPHYR_CURRENT_MODULE_DIR}/rclc/src/rclc/node.c
   ${ZEPHYR_CURRENT_MODULE_DIR}/rclc/src/rclc/executor_handle.c
   ${ZEPHYR_CURRENT_MODULE_DIR}/rclc/src/rclc/executor.c
-  ${ZEPHYR_CURRENT_MODULE_DIR}/rclc/src/rclc/sleep.c
+  ${ZEPHYR_CURRENT_MODULE_DIR}/rclc/src/rclc/sleep_zephyr.c
 )
 
 zephyr_library_compile_definitions(_DEFAULT_SOURCE)
